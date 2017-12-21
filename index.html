@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My First Project</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+<body>
+	<!-- HEADER -->
+	<header class="header">
+		<div class="container">
+		    <h1>Study WEB development</h1>
+		    <h2><small>There are my work bookmarks which help me to study Python/Flask/Javascript/HTML/CSS/lQuery</small></h2>
+	    </div>
+	</header>
+	<!-- /HEADER -->
+	<!-- NAV -->
+	<nav class="page-navigation">
+		<div class="container">
+			<ul>
+				<li class="navigation1"><a href="">Home</a></li>
+				<li class="navigation2"><a href="">About</a></li>
+				<li class="navigation3"><a href="">Content</a></li>
+			</ul>
+			<form action="#" class="login">
+				<input type="text" placeholder="Login" required>
+				<input type="password" placeholder="Password" required>
+				<input type="submit" value="Sign In" class="submit">
+			</form>
+			<!-- /LOGIN FORM -->
+		</div>
+	</nav>
+	<!-- /NAV -->
+	<!-- MAIN -->
+	<main>
+		<div class="container">
+			<h2 class="collection-title">Bookmarks Collection <small>Visualize Quality</small></h2>
+			<div class="collections">
+				<div class="collection-item-outer">
+					<div class="collection-item">
+						<img src="images/python-logo.png" alt="Flask">
+						<div class="collection-text">
+							<h3>Python 2.7.4 documentation</h3>
+							<p>
+							To study Python or refresh my memory I have to read <a href="https://docs.python.org/2/tutorial/index.html">Tutorial</a> where I can read the basic concepts and features of the Python language and system. In addition <a href="https://docs.python.org/2/library/index.html#library-index">the Python Standart Library</a> reference manual describes the standard library that is distributed with Python. <a href="https://docs.python.org/2/reference/index.html#reference-index">The Python Language Reference</a> gives a more formal definition of the language. The <a href="https://docs.python.org/2/glossary.html#glossary">Glossary</a> is also worth going through.
+						    </p>
+							<button onclick="showText(this)">Read more...</button>
+						</div>
+					</div>
+				</div>
+                <div class="collection-item-outer">
+					<div class="collection-item">
+						<img src="images/mozilla.png" alt="Flask">
+						<div class="collection-text">
+							<h3>Mozilla Developer</h3>
+							<p>
+								<a href="https://developer.mozilla.org/en-US/">MDN web docs</a> is an an open community of developers and writers building resources for a better Web, regardless of brand, browser, or platform. Related topics includes <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a> as the most basic building block of the Web, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a> as a stylesheet language used to describe the presentation of a document written in HTML and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a> as a lightweight interpreted or JIT-compiled programming language with first-class functions. In addition you can use <a href="http://jquery.com/">jQuery</a> like fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.
+							</p>
+							<button onclick="showText(this)">Read more...</button>
+						</div>
+					</div>
+				</div>
+				<div class="collection-item-outer">
+					<div class="collection-item">
+						<img src="images/flask.png" alt="Flask">
+						<div class="collection-text">
+							<h3>Flask</h3>
+							<p>
+							<a href="http://flask.pocoo.org/docs/0.12/">Flask</a> is a micro webdevelopment framework for Python. Flask depends on two external libraries: the <a href="http://jinja.pocoo.org/docs/2.10/">Jinja2</a> template engine and the <a href="http://werkzeug.pocoo.org/">Werkzeug</a> WSGI toolkit. The <a href="http://flask.pocoo.org/docs/0.11/tutorial/#tutorial">official tutorial</a> and  <a href="https://www.tutorialspoint.com/flask/">this tutorial</a> has been prepared for anyone who has a basic knowledge of Python and has an urge to develop websites. In addition you can use <a href="https://www.lynda.com/Flask-tutorials/Learning-Flask/521231-2.html">www.lynda.com</a>, <a href="https://www.youtube.com/playlist?list=PLsoxPgEYMDKh5Gm-Cih0b5KAdDCUgMpRH">Flask Course</a> from YouTube.
+						    </p>
+							<button onclick="showText(this)">Read more...</button>
+						</div>
+					</div>
+				</div>
+		    </div>
+	    </div>
+	    <div class="container">
+			<h2 class="collection-title">In addition <small>Visualize Quality</small></h2>
+			<div class="collections">
+				<div class="collection-item-outer">
+					<div class="collection-item">
+						<img src="images/stock-overflow.png" alt="Flask">
+						<div class="collection-text">
+							<h3>Stack overflow</h3>
+							<p><a href="https://stackoverflow.com/">Stack Overflow</a> is the largest, most trusted online community for developers to learn, share​ ​their programming ​knowledge, and build their careers.</p>
+							<button onclick="showText(this)">Read more...</button>
+						</div>
+					</div>
+				</div>
+				<div class="collection-item-outer">
+					<div class="collection-item">
+						<img src="images/w3resourse.png" alt="Flask">
+						<div class="collection-text">
+							<h3>Web development tutorials</h3>
+							<p><a href="https://www.w3resource.com/index.php">There are</a> knowledge from Frontend (HTML, CSS, JavaScript), Backend (Python), Database (SQL, MySQL, PostgreSQL, SQlite, NoSQL, MongoDB, Oracle, Redis) with many exercises. Also you can use another tutorials like <a href="http://www.sqlitetutorial.net/sqlite-sample-database/">this</a> or <a href="https://www.w3schools.com/sql/default.asp">this</a>.</p>
+							<button onclick="showText(this)">Read more...</button>
+						</div>
+					</div>
+				</div>
+				<div class="collection-item-outer">
+					<div class="collection-item">
+						<img src="images/source.jpg" alt="Flask">
+						<div class="collection-text">
+							<h3>Useful sources</h3>
+							<p>To solve some tasks you can use <a href="https://py.checkio.org/">checkio</a>, javascript or CSS libraries (<a href="http://vincentgarreau.com/particles.js/">Particles.js</a> - a library for creating beautiful floating particles on a web page; <a href="https://threejs.org/">Three.js</a> - a library for creating 3d objects and spaces on a web page, and another which is in <a href="https://hackernoon.com/67-useful-tools-libraries-and-resources-for-saving-your-time-as-a-web-developer-7d3fb8667030">this or <a href="https://medium.com/level-up-web/the-ultimate-list-of-best-free-tools-resources-for-front-end-web-developers-983c65de3300">this</a></a>).</p>
+							<button onclick="showText(this)">Read more...</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- /MAIN -->
+	<!-- FOOTER -->
+	<footer class="footer">
+		<div class="container">
+			<p>Copyright from enywhere 2017</p>
+		</div>
+	</footer>
+	<!-- /FOOTER -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="script/main.js"></script>
+<script type="text/javascript" src="script/jsjQuery.js"></script>
+</head>
+</body>
+</html>
